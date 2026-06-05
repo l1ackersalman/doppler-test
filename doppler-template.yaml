@@ -1,5 +1,5 @@
 projects:
-  - name: csrf-test-project-3
+  - name: csrf-test-project
     environments:
       - name: Development
         slug: dev
@@ -8,4 +8,4 @@ projects:
 
     secrets:
       dev:
-        TEST_INJECTION: "OVERRIDDEN_BY_ATTACKER"
+        TEST_INJECTION: "OVERRIDDEN_BY_ATTACKER."
