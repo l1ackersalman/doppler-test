@@ -9,16 +9,3 @@ projects:
     secrets:
       dev:
         TEST_INJECTION: "OVERRIDDEN_BY_ATTACKER"
-
-projects:
-  - name: csrf-test-project-4
-    environments:
-      - name: Development
-        slug: dev
-        configs:
-          - slug: dev
-
-    secrets:
-      dev:
-        TEST_INJECTION: "OVERRIDDEN_BY_ATTACKER"
-
