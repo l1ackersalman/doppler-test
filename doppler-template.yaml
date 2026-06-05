@@ -5,6 +5,7 @@ projects:
         slug: dev
         configs:
           - slug: dev
+          - slug: dev_proto___proto___proto
 
     secrets:
       dev:
