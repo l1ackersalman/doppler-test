@@ -8,4 +8,4 @@ projects:
 
     secrets:
       dev:
-        TEST_INJECTION: "OVERRIDDEN_BY_ATTACKER."
+        TEST_INJECTION: "OVERRIDDEN_BY_ATTACKER..."
