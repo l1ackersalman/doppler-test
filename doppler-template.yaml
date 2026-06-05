@@ -5,9 +5,6 @@ projects:
         slug: dev
         configs:
           - slug: dev
-          - slug: constructor
-          - slug: prototype
-          - slug: toString
 
     secrets:
       dev:
