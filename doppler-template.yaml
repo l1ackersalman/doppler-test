@@ -9,4 +9,5 @@ projects:
     secrets:
       dev:
         TEST_INJECTION: "CSRF_PWNED_123"
-        ATTACKER_MARK: "owned_by_salman"
+        ATTACKER_MARK: "owned_by_l1ackersalman"
+        
