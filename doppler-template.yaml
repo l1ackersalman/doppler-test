@@ -1,5 +1,5 @@
 projects:
-  - name: csrf-test-project-2
+  - name: proto-test
     environments:
       - name: Development
         slug: dev
@@ -8,6 +8,7 @@ projects:
 
     secrets:
       dev:
-        TEST_INJECTION: "CSRF_PWNED_1234"
-        ATTACKER_MARK: "owned_by_l1ackersalman"
-        
+        __proto__:
+          polluted: "YES_POLLUTED"
+        constructor:
+          injected: "YES_CONSTRUCTOR"
