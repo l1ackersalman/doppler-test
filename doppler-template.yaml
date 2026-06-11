@@ -1,5 +1,5 @@
 projects:
-  - name: csrf-test-project
+  - name: your‐project
     environments:
       - name: Development
         slug: dev
