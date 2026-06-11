@@ -1,5 +1,5 @@
 projects:
-  - name: 'csrf-test' # Name may contain lowercase letters, spaces, numbers, hyphens, and underscores
+  - name: 'csrf__proto__test' # Name may contain lowercase letters, spaces, numbers, hyphens, and underscores
     description: 'Your project description'
 
     # List of totally customizable environments, e.g Test, Stage, QA, CI-CD
