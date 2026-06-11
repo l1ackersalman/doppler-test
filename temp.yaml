@@ -1,0 +1,12 @@
+projects:
+  - name: your-project
+    environments:
+      - name: Development
+        slug: dev
+        configs:
+          - slug: dev
+          - slug: dev_proto___proto___proto
+
+    secrets:
+      dev:
+        TEST_INJECTION: "OVERRIDDEN_BY_ATTACKER..."
