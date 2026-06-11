@@ -1,5 +1,5 @@
 projects:
-  - name:                  your- project 
+  - name: your- project
     environments:
       - name: Development
         slug: dev
