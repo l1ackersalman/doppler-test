@@ -1,13 +1,14 @@
-projects:
-  - name: your-project
-    environments:
-      - name: Development
-        slug: dev
-        secretsMissingCount: 2
-        configs:
-          - slug: dev
-          - slug: dev_proto___proto___proto
+a: &a ["A","A","A","A","A","A","A","A","A"]
 
+b: &b [*a,*a,*a,*a,*a,*a,*a,*a,*a]
+
+projects:
+  - name: 'your-project1'
+    environments:
+      - name: 'Development'
+        slug: 'dev'
+        configs:
+          - slug: 'dev'
     secrets:
       dev:
-        TEST_INJECTION: "OVERRIDDEN_BY_ATTACKER..."
+        ENV: *b
