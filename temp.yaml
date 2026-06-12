@@ -1,7 +1,8 @@
-a: &a "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+a: &a "A"
+b: &b "*a*a*a*a*a*a*a*a*a*a"
 
 projects:
-  - name: 'your-project'
+  - name: 'your-projectt'
     environments:
       - name: 'Development'
         slug: 'dev'
