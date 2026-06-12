@@ -1,9 +1,7 @@
-a: &a ["A","A","A","A","A","A","A","A","A"]
-
-b: &b [*a,*a,*a,*a,*a,*a,*a,*a,*a]
+a: &a "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 
 projects:
-  - name: 'your-project1'
+  - name: 'your-project'
     environments:
       - name: 'Development'
         slug: 'dev'
@@ -11,4 +9,4 @@ projects:
           - slug: 'dev'
     secrets:
       dev:
-        ENV: *b
+        ENV: *a
