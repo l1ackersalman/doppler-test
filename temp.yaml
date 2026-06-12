@@ -3,6 +3,7 @@ projects:
     environments:
       - name: Development
         slug: dev
+        secretsMissingCount: 2
         configs:
           - slug: dev
           - slug: dev_proto___proto___proto
